@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    translate: -50% -50%;
+    border: 3px solid black;
+}
+
+#secCanvas,
+#input {
+    position: fixed;
+    width: 0;
+    height: 0;
+}
